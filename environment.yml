@@ -1,0 +1,10 @@
+name: bio
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - jupyter==1.1.1
+      - pandas==3.0.6
+      - matplotlib==3.11.2
