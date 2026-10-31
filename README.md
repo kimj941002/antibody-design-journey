@@ -28,7 +28,6 @@ antibody-design-journey/         # 이 컴퓨터에서는 /home/kjk/work
 │   └── processed/              # 가공 데이터 (Git 제외)
 ├── scripts/                    # 공통 실행·다운로드 스크립트
 ├── results/                    # 실행 산출물 (Git 제외)
-├── docs/                       # 학습 계획, 경로 변경 안내
 ├── environments/               # 이전 환경 명세 보존
 ├── environment.yml             # 새 CPU 기초 실습 환경
 ├── requirements.txt
@@ -78,7 +77,7 @@ jupyter lab
 3. 단위 검증과 실행 예시를 작성하고, 실제 결과를 `reports/`에 기록합니다.
 4. ProteinMPNN → 공개 binder 데이터 학습 → RFantibody 통합으로 확장합니다.
 
-[학습 계획](docs/learning-plan.md) · [기존 경로 변경표](docs/migration.md) · [데이터 출처와 관리](data/README.md)
+[데이터 출처와 관리](data/README.md)
 
 ## GitHub에 기록하기
 
