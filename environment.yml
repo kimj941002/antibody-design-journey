@@ -1,0 +1,9 @@
+name: antibody-study
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - pip:
+      - -r requirements.txt

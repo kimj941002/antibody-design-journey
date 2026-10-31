@@ -1,0 +1,37 @@
+# Python / local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+
+# Data and execution artifacts (document sources in tracked README files)
+/data/raw/*
+!/data/raw/1N8Z.pdb
+/data/processed/*
+!/data/processed/README.md
+/data/pdb_cache/
+/data/sabdab/
+/results/*
+!/results/README.md
+/output/
+/models/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors

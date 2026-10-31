@@ -1,0 +1,3 @@
+# Initial CPU structure-analysis lessons; GPU model dependencies are separate.
+biopython
+numpy
